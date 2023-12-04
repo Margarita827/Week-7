@@ -1,7 +1,12 @@
 body {
-  background-color: #bfaeed;
+  background-color: #d1c3f9;
   font-family: "Kanit", sans-serif;
   font-family: "Roboto Slab", serif;
+}
+
+header {
+  border-bottom: 1px solid #d1c3f9;
+  padding: 30px 0;
 }
 
 .weather-app {
@@ -11,4 +16,18 @@ body {
   box-shadow: 0 20px 40px rgb(136, 93, 241);
   padding: 30px;
   border-radius: 18px;
+}
+
+.search-city {
+  background-color: #e7e0f7;
+  border-radius: 6px;
+  width: 80%;
+  padding: 20px;
+}
+
+.search-button {
+  background: #dfd6f7;
+  padding: 20px;
+  border-radius: 6px;
+  color: black;
 }
