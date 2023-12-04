@@ -1,5 +1,7 @@
 body {
   background-color: #bfaeed;
+  font-family: "Kanit", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .weather-app {
