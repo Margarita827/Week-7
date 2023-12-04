@@ -1,6 +1,7 @@
 body {
-  color: blueviolet;
+  background-color: #e0daef;
 }
-h1 {
-  color: blue;
+
+.weather-app {
+  background: #f9f7fe;
 }
