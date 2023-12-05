@@ -2,8 +2,11 @@ function updateWeather(response) {
   let temperatureElement = document.querySelector("#current-temperature");
   let temperature = response.data.temperature.current;
   let cityElement = document.querySelector("#current-city");
+  let descriptionElement = document.querySelector("#description");
+  console.log(response.data.condition.description);
 
   cityElement.innerHTML = response.data.city;
+  descriptionElement.innerHTML = response.data.condition.description;
   temperatureElement.innerHTML = Math.round(temperature);
 }
 
