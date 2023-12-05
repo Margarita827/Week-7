@@ -1,6 +1,7 @@
 function updateWeather(response) {
   let temperatureElement = document.querySelector("#current-temperature");
   let temperature = response.data.temperature.current;
+  let cityElement = document.querySelector("#current-city");
 
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(temperature);
@@ -20,6 +21,3 @@ function handleSearchSubmit(event) {
 
 let searchElement = document.querySelector("#search-form");
 searchElement.addEventListener("submit", handleSearchSubmit);
-
-
-
