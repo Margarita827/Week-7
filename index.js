@@ -58,3 +58,5 @@ function handleSearchSubmit(event) {
 
 let searchElement = document.querySelector("#search-form");
 searchElement.addEventListener("submit", handleSearchSubmit);
+
+changeCity("Brighton");
